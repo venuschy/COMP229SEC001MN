@@ -32,7 +32,7 @@ class Vehicle {
  }
  
  let car = new Car('blue');
- car.toString();
+ console.log(car.toString());
  
  console.log(car instanceof Car);
  console.log(car instanceof Vehicle);
@@ -108,7 +108,7 @@ function iterateLet() {
 
  //Closure
  function parent() {
-    const message = 'Hello World';
+    const message = 'Hello World1';
  
     function child() {
        alert (message);
@@ -117,3 +117,17 @@ function iterateLet() {
     child();
  }
  parent();
+
+ 
+ function parent2() {
+    const message = 'Hello World2';
+ 
+    function child2() {
+       alert (message);
+    }
+ 
+    return child2;
+ }
+ 
+ const childFN = parent2();
+ childFN();
