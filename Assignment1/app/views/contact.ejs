@@ -1,0 +1,49 @@
+<!-- contact.ejs -->
+<!-- Hoi Ying CHAN 301272441 -->
+<!-- 9 June 2023 -->
+
+<%- include('partials/header.ejs') %>
+<%- include('partials/top_nav.ejs') %>
+<%- include('partials/content.ejs') %>
+
+<!-- contact information panel -->
+      <table id="contact">
+        <tr>
+          <td>
+            <div class="panel">
+              <h1>GET IN TOUCH</h1><br><hr><br>
+              <div class="panel-content">
+                  <p>Email: hchan134@my.centennialcollege.ca</p>
+                  <p>Phone: (457)-234-1234</p>
+              </div>
+            </div>
+          </td>
+
+<!-- user enquiry form -->
+          <td>
+            <form id="contactForm"action="/" method="get">
+              <label for="fname">First name:*</label>
+              <input type="text" id="fname" name="fname" required><br>
+              <label for="lname">Last name: *</label>
+              <input type="text" id="lname" name="lname" required><br>
+              <label for="fname">Email:*</label>
+              <input type="email" id="email" name="email" placeholder="hchan134@my.centennialcollege.ca" required><br>
+              <label for="lname">Contact Number:</label>
+              <input type="tel" id="phone" name="phone" placeholder="457-234-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" ><br>
+              <label for="lname">Message: *</label>
+              <textarea id="message" name="message" rows="3"required></textarea>
+
+<!-- form buttons container -->
+              <div class="button-container">
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+              </div>
+            </form> 
+          </td>
+        </tr>
+      </table>
+      <br><br><br>
+
+
+<%- include('partials/footer.ejs') %>
+<%- include('partials/bottom_nav.ejs') %>

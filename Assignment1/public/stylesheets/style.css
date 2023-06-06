@@ -1,0 +1,172 @@
+/* style.css
+   Hoi Ying CHAN 301272441
+   9 June 2023 */
+
+ul.navbar-nav {
+  list-style: none; 
+  display: inline;
+  float: right;
+  font-size:20px; 
+}
+
+ul.navbar-nav li {
+  display: inline-block; 
+  padding: 0px 85px 0px 85px;
+  text-align: center;
+}
+
+a.navbar-brand {
+  color: #ffffff;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+ text-decoration: none;
+}
+
+a:hover {
+text-decoration: none;
+}
+
+a:active {
+text-decoration: none;
+}
+
+.nav-item .nav-link {
+  color: white;
+}
+
+html,body {
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1;
+}
+
+footer {
+background-color: #343a40;
+color: #ffffff;
+}
+
+footer .navbar-text {
+margin-bottom: 0;
+font-size: small;
+}
+
+h1.”display-4”{
+  padding: 1%;
+  color: rgb(38, 45, 144);
+}
+
+#aboutme, #contact, #services, #projects, #home {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0%;
+}
+
+#aboutme td {
+  padding-right: 10%;
+  line-height: 180%;
+}
+
+#home td{
+  padding:10px;
+}
+
+.bold{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  float: left;
+  width: 200px;
+}
+
+input, textarea {
+  display: block;
+  width:300px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.button-container input[type="reset"],
+.button-container input[type="submit"] {
+  width: 100px;
+  background-color: #3d5be1;
+  color: #Fefefe;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.panel{
+  padding-right: 10%;
+}
+
+.servicegrid-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.servicegrid-item{
+  border: 5px solid rgba(31, 26, 127, 0.8);
+  margin: 5px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.row1{
+  width: 60px;
+}
+
+
+.row3 p{
+  padding: 20px;
+  text-align: left;
+  height: 300px;
+}
+.projectLink{
+  overflow: hidden;
+  cursor: pointer;
+}
+.projectLink img{
+  transition: transform .5s ease;
+}
+.projectLink:hover img {
+  transform: scale(1.5);
+}
+
+.button{
+  border:2px solid #3d5be1;
+  border-radius: 10%;
+  border-collapse: separate;
+  background-color: rgb(232, 232, 232);
+}
+
+.bottomTable{
+  background-color: rgb(218, 226, 246);
+}
