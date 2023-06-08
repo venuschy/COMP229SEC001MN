@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('/config/express.js');
+//var app = require('/config/express.js'); 
 var debug = require('debug')('assignment1:server');
 var http = require('http');
 
