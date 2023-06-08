@@ -1,21 +1,26 @@
-<!-- services.ejs -->
-<!-- Hoi Ying CHAN 301272441 -->
-<!-- 9 June 2023 -->
+<!-- File Name: services.ejs -->
+<!-- Name: Hoi Ying CHAN -->
+<!-- ID: 301272441 -->
+<!-- Date: 9 June 2023 -->
 
+<!-- partials for top part of the webpage-->
 <%- include('partials/header.ejs') %>
 <%- include('partials/top_nav.ejs') %>
 <%- include('partials/content.ejs') %>
 
+<!-- container for services provided -->
       <div class="servicegrid-container">
         <div class="servicegrid-item">
+
+<!-- table for General Programming -->
           <table class="services">
-            <tr class="row1">
+            <tr class="servicesRow1">
               <td><img src="/images/programming.png"alt="Main" height="80px"width="80px"></td>
             </tr>
-            <tr class="row2">
+            <tr class="servicesRow2">
               <td style="background-color: #e7e9f0e2;"><h5><u>General Programming</u></h5></td>
             </tr>
-            <tr class="row3">
+            <tr class="servicesRow3">
               <td style="background-color: #cdd6f6e0;">
                 <p>I offer comprehensive general programming solutions tailored to meet 
                   your unique needs, including C#, Javascript, Java. With a focus on quality and innovation, I 
@@ -25,15 +30,16 @@
             </tr>
           </table>
         </div>
+<!-- table for Web Development -->
         <div class="servicegrid-item">
           <table class="services">
-            <tr class="row1">
+            <tr class="servicesRow1">
               <td><img src="/images/webpage.png"alt="Main" height="80px"width="80px"></td>
             </tr>
-            <tr class="row2">
+            <tr class="servicesRow2">
               <td style="background-color: #e7e9f0e2;"><h5><u>Web Development</u></h5></td>    
             </tr>
-            <tr class="row3">  
+            <tr class="servicesRow3">  
               <td style="background-color: #cdd6f6e0;">
                 <p>I provide specialized web development solutions to help businesses establish a strong online 
                   presence. Excelling in creating visually appealing and user-friendly websites that are optimized 
@@ -43,15 +49,17 @@
             </tr>    
           </table>
         </div>
+
+<!-- table for Data Science and Analytics -->
         <div class="servicegrid-item">
           <table class="services">
-            <tr class="row1">
+            <tr class="servicesRow1">
               <td><img src="/images/datascience.png"alt="Main" height="80px"width="80px"></td>
             </tr>
-            <tr class="row2">
+            <tr class="servicesRow2">
               <td style="background-color: #e7e9f0e2;"><h5><u>Data Science and Analytics</u></h5></td> 
             </tr>
-            <tr class="row3">
+            <tr class="servicesRow3">
               <td style="background-color: #cdd6f6e0;">
                 <p>I offer comprehensive Data Science and Analytics solutions to help businesses harness the power 
                   of data. From data collection to predictive modeling and visualization, I provide 
@@ -61,15 +69,17 @@
             </tr> 
           </table>
         </div>  
+
+<!-- table for Mobile Apps -->
         <div class="servicegrid-item">
           <table class="services">
-            <tr class="row1">
+            <tr class="servicesRow1">
               <td><img src="/images/mobileapp.png"alt="Main" height="80px"width="80px"></td>
             </tr> 
-            <tr class="row2">
+            <tr class="servicesRow2">
               <td style="background-color: #e7e9f0e2;"><h5><u>Mobile Apps</u></h5></td>  
             </tr>
-            <tr class="row3">
+            <tr class="servicesRow3">
               <td style="background-color: #cdd6f6e0;">
                 <p>I specialize in developing innovative mobile applications that cater to the unique needs and 
                   preferences of my clients. Utilizing the latest technologies and frameworks to create 
@@ -81,5 +91,7 @@
     </div>
     <br><br><br><br>
     </main>
+
+<!-- partials for bottom part of the webpage-->
 <%- include('partials/footer.ejs') %>
 <%- include('partials/bottom_nav.ejs') %>

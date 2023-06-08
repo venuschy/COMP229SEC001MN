@@ -1,15 +1,19 @@
-<!-- index.ejs -->
-<!-- Hoi Ying CHAN 301272441 -->
-<!-- 9 June 2023 -->
+<!-- File Name: index.ejs -->
+<!-- Name: Hoi Ying CHAN -->
+<!-- ID: 301272441 -->
+<!-- Date: 9 June 2023 -->
 
+<!-- partials for top part of the webpage-->
 <%- include('partials/header.ejs') %>
 <%- include('partials/top_nav.ejs') %>
+
+<!-- title -->
     <main class=”container”>
       <div class=”jumbotron”>
           <h1 class=”display-4”>Welcome to My Personal Portfolio</h1>
       </div>
 
-      <!-- form buttons container -->
+<!-- mission statement table-->
       <table id="home">
         <tr>
           <td colspan="2">
@@ -28,6 +32,8 @@
             expectations.</p>
           </td>
         </tr>
+
+<!-- sections to other pages-->
         <tr colspan="4" style="height: 50px;"></tr>
         <tr class="bottomTable">
           <td><h5>Learn more about me?</h5></td>
@@ -45,17 +51,18 @@
           <td style="width:200px">
             <p>If you want to have a personal conversation about my services, click Learn More to send me a message.</p></td>
         </tr>
-
         <tr class="bottomTable">
-          <td><a href="/about" class="button">Learn more</a></td>
-          <td><a href="/projects" class="button">Learn more</a></td>
-          <td><a href="/services" class="button">Learn more</a></td>
-          <td><a href="/contact" class="button">Learn more</a></td>
+          <td><a href="/about" class="indexButton">Learn more</a></td>
+          <td><a href="/projects" class="indexButton">Learn more</a></td>
+          <td><a href="/services" class="indexButton">Learn more</a></td>
+          <td><a href="/contact" class="indexButton">Learn more</a></td>
         </td>
         </tr>
       </table>
       <br><br><br><br>
     </main>
+
+<!-- partials for bottom part of the webpage-->
 <%- include('partials/footer.ejs') %>
 <%- include('partials/bottom_nav.ejs') %>
 

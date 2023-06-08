@@ -1,7 +1,9 @@
-/*index.js
-  Hoi Ying CHAN 301272441
-  9 June 2023 */
+/* File Name: index.js
+   Name: Hoi Ying CHAN
+   ID: 301272441
+   Date: 9 June 2023 */
 
+// Section: Routers
 var express = require('express');
 var router = express.Router();
 

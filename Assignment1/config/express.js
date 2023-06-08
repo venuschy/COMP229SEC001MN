@@ -1,7 +1,8 @@
-/*express.js
-  Hoi Ying CHAN 301272441
-  9 June 2023 */
-
+/* File Name: express.js
+   Name: Hoi Ying CHAN
+   ID: 301272441
+   Date: 9 June 2023 */
+   
 var express = require('express'),
     morgan = require('morgan'),
     compress = require('compression'),
